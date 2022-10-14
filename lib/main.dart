@@ -4,6 +4,7 @@ import 'package:pindias_app/presentation/view/filter/filter.dart';
 import 'package:flutter/material.dart';
 
 import 'presentation/view/community/ui/test_page.dart';
+import 'presentation/view/post_news_social/ui/post_news_social_page.dart';
 import 'presentation/view/real_estate_detail/ui/real_estate_detail_page.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       // First screen of our app
-      home: const RealStateDetailPage(),
+      home: const PostNewsSocialPage(),
       // home: FilterPage(),
       // home: const PolygonPage(),
     );
