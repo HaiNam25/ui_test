@@ -14,9 +14,7 @@ class InfoDetailRealEstate extends StatelessWidget {
         const Text(
           '#246 CĂN HỘ CAO CẤP KING PALACE',
           style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w700,
-              color: Colors.black),
+              fontSize: 16, fontWeight: FontWeight.w700, color: Colors.black),
         ),
         const SizedBox(
           height: 8,
@@ -44,12 +42,14 @@ class InfoDetailRealEstate extends StatelessWidget {
               width: 8,
             ),
             const CommonItem1(
-              image: 'assets/ic_back.png',
+              image: 'assets/im_eye.png',
+              imageWidth: 15,
+              imageHeight: 11,
               tittle: '12468',
               sizeWidth: 8,
-              styleFontsize: 12,
+              textFontsize: 12,
               fontWeight: FontWeight.w600,
-              styleColor: Color(0xff670374),
+              textColor: Color(0xff670374),
             )
           ],
         ),
@@ -68,12 +68,12 @@ class InfoDetailRealEstate extends StatelessWidget {
         ),
         CommonItem1(
           onTap: () {},
-          image: 'assets/ic_back.png',
+          image: 'assets/im_map.png',
           tittle: 'Xem trên bản đồ',
           sizeWidth: 8,
-          styleFontsize: 12,
+          textFontsize: 12,
           fontWeight: FontWeight.w600,
-          styleColor: const Color(0xff670374),
+          textColor: const Color(0xff670374),
         ),
         const SizedBox(
           height: 16,
@@ -90,23 +90,23 @@ class InfoDetailRealEstate extends StatelessWidget {
             Expanded(
               child: CommonItem1(
                 onTap: () {},
-                image: 'assets/ic_back.png',
+                image: 'assets/im_bed.png',
                 tittle: '3 phòng ngủ',
                 sizeWidth: 8,
-                styleFontsize: 12,
+                textFontsize: 12,
                 fontWeight: FontWeight.w600,
-                styleColor: const Color(0xff6B6B6B),
+                textColor: const Color(0xff6B6B6B),
               ),
             ),
             Expanded(
               child: CommonItem1(
                 onTap: () {},
-                image: 'assets/ic_back.png',
+                image: 'assets/im_area.png',
                 tittle: '83m2',
                 sizeWidth: 8,
-                styleFontsize: 12,
+                textFontsize: 12,
                 fontWeight: FontWeight.w600,
-                styleColor: const Color(0xff6B6B6B),
+                textColor: const Color(0xff6B6B6B),
               ),
             ),
           ],
@@ -119,23 +119,23 @@ class InfoDetailRealEstate extends StatelessWidget {
             Expanded(
               child: CommonItem1(
                 onTap: () {},
-                image: 'assets/ic_back.png',
+                image: 'assets/im_bathtub.png',
                 tittle: '2 ve sinh',
                 sizeWidth: 8,
-                styleFontsize: 12,
+                textFontsize: 12,
                 fontWeight: FontWeight.w600,
-                styleColor: const Color(0xff6B6B6B),
+                textColor: const Color(0xff6B6B6B),
               ),
             ),
             Expanded(
               child: CommonItem1(
                 onTap: () {},
-                image: 'assets/ic_back.png',
+                image: 'assets/im_discovery.png',
                 tittle: 'hướng Tây',
                 sizeWidth: 8,
-                styleFontsize: 12,
+                textFontsize: 12,
                 fontWeight: FontWeight.w600,
-                styleColor: const Color(0xff6B6B6B),
+                textColor: const Color(0xff6B6B6B),
               ),
             ),
           ],
@@ -153,9 +153,7 @@ class InfoDetailRealEstate extends StatelessWidget {
         const Text(
           'Tổng quan',
           style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-              color: Colors.black),
+              fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black),
         ),
         const SizedBox(
           height: 8,
@@ -173,9 +171,7 @@ class InfoDetailRealEstate extends StatelessWidget {
         const Text(
           'Chi tiết bất động sản',
           style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-              color: Colors.black),
+              fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black),
         ),
         const SizedBox(
           height: 8,
@@ -226,9 +222,7 @@ class InfoDetailRealEstate extends StatelessWidget {
         const Text(
           'Tiện ích xung quanh',
           style: TextStyle(
-              fontSize: 14,
-              fontWeight: FontWeight.w600,
-              color: Colors.black),
+              fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black),
         ),
         const SizedBox(
           height: 16,

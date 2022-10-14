@@ -5,9 +5,11 @@ class CommonItem1 extends StatelessWidget {
   final String? tittle;
   final double? sizeWidth;
   final GestureTapCallback? onTap;
-  final double? styleFontsize;
-  final Color? styleColor;
+  final double? textFontsize;
+  final Color? textColor;
   final FontWeight? fontWeight;
+  final double? imageWidth;
+  final double? imageHeight;
 
   const CommonItem1(
       {Key? key,
@@ -15,9 +17,12 @@ class CommonItem1 extends StatelessWidget {
       this.tittle,
       this.onTap,
       this.sizeWidth,
-      this.styleFontsize,
-      this.styleColor,
-      this.fontWeight})
+      this.textFontsize,
+      this.textColor,
+      this.fontWeight,
+      this.imageWidth,
+      this.imageHeight,
+      })
       : super(key: key);
 
   @override
@@ -30,6 +35,8 @@ class CommonItem1 extends StatelessWidget {
             image: AssetImage(
               image ?? '',
             ),
+            height: imageHeight??24,
+            width: imageWidth??24,
           ),
         ),
         SizedBox(
@@ -38,9 +45,9 @@ class CommonItem1 extends StatelessWidget {
         Text(
           tittle ?? '',
           style: TextStyle(
-              fontSize: styleFontsize,
+              fontSize: textFontsize,
               fontWeight: fontWeight,
-              color: styleColor ?? Colors.red,
+              color: textColor ?? Colors.red,
           ),
         ),
       ],

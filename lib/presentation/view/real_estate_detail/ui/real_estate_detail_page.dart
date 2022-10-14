@@ -10,7 +10,7 @@ class RealStateDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(0),
+          preferredSize: const Size.fromHeight(0),
           child: Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
