@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'presentation/view/community/ui/test_page.dart';
 import 'presentation/view/post_news_social/ui/post_news_social_page.dart';
 import 'presentation/view/real_estate_detail/ui/real_estate_detail_page.dart';
+import 'presentation/view/save_new_location/ui/save_new_location.dart';
 
 void main() {
   // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -27,10 +28,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // on below line we are specifying theme
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.purple,
       ),
       // First screen of our app
-      home: const PostNewsSocialPage(),
+      home: const SaveNewLocation(),
       // home: FilterPage(),
       // home: const PolygonPage(),
     );

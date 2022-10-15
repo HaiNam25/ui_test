@@ -21,7 +21,8 @@ class PostNewsSocialPage extends StatelessWidget {
                 tileMode: TileMode.mirror,
               ),
             ),
-          )),
+          ),
+      ),
       body: BlocProvider(
         create: (BuildContext context) => postNewsSocialCubit,
         child: SingleChildScrollView(
